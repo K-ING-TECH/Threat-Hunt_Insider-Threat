@@ -30,6 +30,7 @@ DeviceFileEvents
 | where FileName contains ".zip"
 //| order by Timestamp desc
 ```
+![Image Alt](https://github.com/K-ING-TECH/Threat-Hunt_Insider-Threat/blob/main/img1.png?raw=true)
 
 ✅ Findings:
 
@@ -53,6 +54,7 @@ DeviceProcessEvents
 | order by Timestamp desc
 | project Timestamp, DeviceName, ActionType, FileName, ProcessCommandLine
 ```
+![Image Alt](https://github.com/K-ING-TECH/Threat-Hunt_Insider-Threat/blob/main/img2.png?raw=true)
 
 ✅ Findings:
 
@@ -70,6 +72,7 @@ DeviceNetworkEvents
 | where ActionType contains "OutboundConnection"
 | order by Timestamp desc
 ```
+![Image Alt](https://github.com/K-ING-TECH/Threat-Hunt_Insider-Threat/blob/main/img3.png?raw=true)
 
 ✅ Findings:
 
