@@ -137,7 +137,7 @@ The device was isolated, admin privileges were removed, and PowerShell restricti
 
 MITRE ATT&CK TTPs were mapped, and alerts were set up for future incidents.
 
-## 🏆 Lessons Learned
+## Lessons Learned
 - Monitor file creation and modifications in sensitive areas (C:\ProgramData).
 
 - Restrict PowerShell execution to prevent unauthorized scripts.
